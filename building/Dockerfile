@@ -8,4 +8,4 @@ RUN apt install gradle -y
 RUN git clone https://github.com/sloenthran/JavaSnake.git
 WORKDIR /JavaSnake
 
-RUN gradle build
+RUN gradlew build
