@@ -1,0 +1,12 @@
+services:
+  build:
+    image: snake
+    build:
+      context: .
+      dockerfile: Dockerfile
+
+  test:
+    image: snake2
+    build:
+      context: .
+      dockerfile: Dockerfile2
